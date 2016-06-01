@@ -9,6 +9,7 @@ header {
 header h1 {
  margin:0;
  display:inline;
+ font-family:cursive;
 }
 nav ul {
   margin:0;
@@ -31,6 +32,9 @@ nav ul li a {
   padding: 75px 0 105px 0;
   text-align:center;
   display:block;
+}
+.row-title {
+  font-family:cursive;
 }
 .info-below {
   font-family:cursive;
