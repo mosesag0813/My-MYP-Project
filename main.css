@@ -28,7 +28,7 @@ nav ul li a {
 }
 .row {
   background-color:blue;
-  padding: 25px 0 0 25px;
+  padding: 25px 0 25px 0;
 }
 .info-below {
   font-family:cursive;
