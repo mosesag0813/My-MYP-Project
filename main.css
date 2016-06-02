@@ -39,3 +39,15 @@ nav ul li a {
 .info-below {
   font-family:cursive;
 }
+.row2 {
+  background-color:yellow;
+  padding: 150px 135px;
+  text-align:center;
+  display: block;
+}
+.section-container {
+  background-color: red;
+}
+.section-lead {
+  font-family:cursive;
+}
