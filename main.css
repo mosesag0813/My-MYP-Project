@@ -51,3 +51,9 @@ nav ul li a {
 .section-lead {
   font-family:cursive;
 }
+.row3 {
+ padding:115px 90px;
+ background-color:green;
+ text-align:center;
+ display:block;
+}
