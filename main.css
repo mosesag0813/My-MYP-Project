@@ -46,6 +46,10 @@ nav ul li a {
   text-align:center;
   display: block;
 }
+.features1::before {
+  border-radius:999px;
+  background-color:blue;
+}
 .section-container {
   background-color: red;
 }
