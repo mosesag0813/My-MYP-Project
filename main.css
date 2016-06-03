@@ -48,11 +48,6 @@ nav ul li a {
 }
 
 
-:hov
-
-
-.cls
-
 ul.features .features1::before {
     content: "";
     border-radius: 50%;
