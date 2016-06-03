@@ -47,6 +47,7 @@ nav ul li a {
   display: block;
 }
 .features1::before {
+  content:"";
   border-radius:999px;
   background-color:blue;
 }
