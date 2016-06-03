@@ -46,10 +46,20 @@ nav ul li a {
   text-align:center;
   display: block;
 }
-.features1::before {
-  content:"";
-  border-radius:999px;
-  background-color:blue;
+
+
+:hov
+
+
+.cls
+
+ul.features .features1::before {
+    content: "";
+    border-radius: 50%;
+    background: blue;
+    width: 110px;
+    height: 110px;
+    position: absolute;
 }
 .section-container {
   background-color: red;
