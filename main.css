@@ -37,11 +37,6 @@ nav ul li a {
 .row-title {
   font-family:cursive;
 }
-.info-below {
-  font-family:cursive;
-  color:white;
-  background-color:purple;
-}
 .row2 {
   background-color:yellow;
   padding: 150px 135px;
@@ -69,4 +64,12 @@ ul.features .features1::before {
  background-color:green;
  text-align:center;
  display:block;
+}
+.info-below {
+  font-family:cursive;
+  color:white;
+  background-color:purple;
+}
+.info-below-text {
+  margin-left:50px;
 }
