@@ -25,7 +25,7 @@ nav ul li {
 }
 nav ul li a {
   color:white;
-  text-decoration:none;
+  text-decoration:none
 }
 .row {
   background-color:blue;
@@ -39,6 +39,8 @@ nav ul li a {
 }
 .info-below {
   font-family:cursive;
+  color:white;
+  background-color:purple;
 }
 .row2 {
   background-color:yellow;
