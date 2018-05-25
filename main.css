@@ -68,8 +68,11 @@ ul.features .features1::before {
 .row4 {
   padding:115px 120px;
   background-color:magenta;
-  text-align:center;
+  
   display:block;
+}
+.section-container3 {
+   text-align:center;
 }
 .row-lead {
    font-family:cursive;
