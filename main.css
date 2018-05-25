@@ -65,6 +65,12 @@ ul.features .features1::before {
  text-align:center;
  display:block;
 }
+.row4 {
+  padding:115px 120px;
+  background-color:magenta;
+  text-align:center;
+  display:block;
+}
 .info-below {
   font-family:cursive;
   color:white;
