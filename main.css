@@ -3,7 +3,7 @@ body {
 }
 header.top-nav {
   color: #00a7ff;
-  padding: 15px 35px;
+  padding: 20px 50px;
 }
 header h1 {
  margin:0;
@@ -11,7 +11,7 @@ header h1 {
 }
 nav ul {
   margin:0;
-  padding: 0 0 0 15px;
+  padding: 0 0 0 650px;
   display:inline;
 }
 nav ul li {
@@ -40,8 +40,13 @@ nav ul li a:active {
   height: 365px;
 }
 .container {
-  height:365px;
+  height: 70px;
+  background-color:#ffffff
 }
+
+.container {}
+
+.container {}
 .row-title {
   font-family: sans-serif;
   color: #ffffff;
