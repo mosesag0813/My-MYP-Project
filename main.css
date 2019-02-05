@@ -1,15 +1,13 @@
 body {
   margin:0;
 }
-header {
-  background: #999;
-  color:white;
-  padding:5px 15px;
+header.top-nav {
+  color: #00a7ff;
+  padding: 15px 35px;
 }
 header h1 {
  margin:0;
  display:inline;
- font-family:cursive;
 }
 nav ul {
   margin:0;
@@ -17,15 +15,20 @@ nav ul {
   display:inline;
 }
 nav ul li {
-  background:black;
-  color: white;
+  color: #00a7ff;
   list-style-type:none;
   display: inline-block;
   padding:5px 15px;
 }
 nav ul li a {
-  color:white;
+  color:#00a7ff;
   text-decoration:none
+}
+nav ul li a:hover {
+    color: #23629a;
+}
+nav ul li a:active {
+    color: #23629a;
 }
 .row {
   background-color:blue;
@@ -33,18 +36,22 @@ nav ul li a {
   text-align:center;
   display:block;
   border: 1px solid #20515B;
+  background-image: linear-gradient(to bottom, #0058ff 0, #325ca9 100%);
+  height: 365px;
+}
+.container {
+  height:365px;
 }
 .row-title {
-  font-family:cursive;
+  font-family: sans-serif;
+  color: #ffffff;
 }
 .row2 {
-  background-color:yellow;
-  padding: 150px 135px;
-  text-align:center;
-  display: block;
+    background-color: yellow;
+    padding: 135px 150px;
+    text-align: center;
+    display: block;
 }
-
-
 ul.features .features1::before {
     content: "";
     border-radius: 50%;
@@ -65,18 +72,6 @@ ul.features .features1::before {
  text-align:center;
  display:block;
 }
-.row4 {
-  padding:115px 120px;
-  background-color:magenta;
-  
-  display:block;
-}
-.section-container3 {
-   text-align:center;
-}
-.row-lead {
-   font-family:cursive;
-}
 .info-below {
   font-family:cursive;
   color:white;
@@ -84,4 +79,47 @@ ul.features .features1::before {
 }
 .info-below-text {
   margin-left:50px;
+}
+
+.btn-download {
+   font-family: sans-serif;
+    border-radius: 6px;
+    width: 280px;
+    height: 48px;
+    text-decoration: none;
+    color: #03A9F4;
+    border-color: #03A9F4;
+    background: transparent;
+    border: 1px solid #03A9F4;
+    text-align: center;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    margin: 30px 0 0 -32px;
+    padding: 28px 0 0 0;
+    display: inline-block;
+}
+.btn-download2 {
+   font-family: sans-serif;
+    border-radius: 6px;
+    width: 280px;
+    height: 48px;
+    text-decoration: none;
+    color: #03A9F4;
+    border-color: #03A9F4;
+    background: transparent;
+    border: 1px solid #03A9F4;
+    text-align: center;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    margin: 20px 0 0 30px;
+    padding: 28px 0 0 0;
+    display: inline-block;
+}
+.btn-download:hover {
+  border-color:white;
+  background-color:white;
+}
+.btn-download2:hover {
+  border-color:white;
+  background-color:white;
 }
